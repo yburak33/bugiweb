@@ -1,622 +1,815 @@
- .u-section-1 {
-  background-image: none;
-  min-height: 1122px;
-}
-
-.u-section-1 .u-shape-1 {
-  height: 364px;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.u-section-1 .u-image-1 {
-  width: 1140px;
-  height: 675px;
-  --animation-custom_in-translate_x: -300px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 1;
-  margin: -281px auto 0;
-}
-
-.u-section-1 .u-group-1 {
-  width: 568px;
-  min-height: 473px;
-  background-image: none;
-  height: auto;
-  --animation-custom_in-translate_x: 300px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 1;
-  margin: -192px calc(((100% - 1140px) / 2)  + 102px) 60px auto;
-}
-
-.u-section-1 .u-container-layout-1 {
-  padding: 30px;
-}
-
-.u-section-1 .u-text-1 {
-  margin: 0;
-}
-
-.u-section-1 .u-text-2 {
-  font-size: 1.25rem;
-  margin: 40px 0 0;
-}
-
-.u-section-1 .u-btn-1 {
-  border-style: none;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 0.875rem;
-  align-self: center;
-  background-image: none;
-  font-weight: 700;
-  margin: 33px auto 0 0;
-  padding: 20px 46px 20px 44px;
-}
-
-@media (max-width: 1199px) {
-   .u-section-1 {
-    min-height: 1083px;
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Our Pricing, ​Low Overhead Means Savings for You, ​Schedule Your Appointment Today, Write Us">
+    <meta name="description" content="">
+    <title>Pricing Page</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="Pricing-Page.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 7.9.4, nicepage.com">
+    <meta name="referrer" content="origin">
+    
+    
+    
+    
+    
+    
+    
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+		"logo": "images/car-repair-logo-blue2.png",
+		"sameAs": [
+				"https://facebook.com/name",
+				"https://twitter.com/name",
+				"https://instagram.com/name"
+		]
+}</script>
+    <meta name="theme-color" content="#5476db">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pricing Page">
+    <meta name="twitter:description" content="">
+    <meta property="og:title" content="Pricing Page">
+    <meta property="og:type" content="website">
+  <meta data-intl-tel-input-cdn-path="intlTelInput/">
+  <style>
+  /* Modal container */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
   }
 
-  .u-section-1 .u-image-1 {
-    width: 940px;
-    height: 557px;
+  /* Modal content box */
+  .modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 4px;
+    width: 80%;
+    max-width: 500px;
   }
 
-  .u-section-1 .u-group-1 {
-    margin-top: -113px;
-    margin-right: calc(((100% - 940px) / 2)  + 102px);
-    height: auto;
+  /* Close button */
+  .modal-close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
   }
-}
+  </style>
+</head>
+  <body data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="en">
+     <header class=" u-border-no-bottom u-border-no-left u-border-no-right u-border-no-top u-clearfix u-header u-section-row-container" id="sec-5e53" style="background-image: none"><div class="u-section-rows">
+        <div class="u-palette-1-base u-section-row u-section-row-1">
+          <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-xl u-valign-middle-xs u-sheet-1">
+            <div class="u-hidden-md u-hidden-sm u-hidden-xs u-social-icons u-social-icons-1">
+              <a class="u-social-url" title="facebook" target="_blank" href="https://www.facebook.com/share/15cvybXjuf/?mibextid=wwXIfr"><span class="u-icon u-social-facebook u-social-icon u-text-white u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xlink:href="#svg-e935"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-e935"><path fill="currentColor" d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2
+c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg></span>
+              </a>
+              <a class="u-social-url" title="twitter" target="_blank" href="https://twitter.com/name"><span class="u-icon u-social-icon u-social-twitter u-text-white u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112.2 112.2" style=""><use xlink:href="#svg-b4b3"></use></svg><svg class="u-svg-content" viewBox="0 0 112.2 112.2" x="0px" y="0px" id="svg-b4b3"><path d="M67.1,49.1L98.6,16h-12L62,42L43.2,16H11l32.8,45.2L11,96h11.6l26.3-27.7L69.1,96H101L67.1,49.1z M55,61.9l-5.1-7L27.5,24.4
+	h11.4l17.3,23.8l5.1,7.1l23.4,32.2H73.8L55,61.9z"></path></svg></span>
+              </a>
+              <a class="u-social-url" title="instagram" target="_blank" href="https://instagram.com/bugimobiledetaling/"><span class="u-icon u-social-icon u-social-instagram u-text-white u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xlink:href="#svg-f50c"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-f50c"><path fill="currentColor" d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z
+	 M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path fill="currentColor" d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7
+	V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7
+	c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg></span>
+              </a>
+            </div>
+            <div class="data-layout-selected u-clearfix u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-gutter-0 u-layout-custom-sm u-layout-custom-xs u-layout-wrap u-layout-wrap-1">
+              <div class="u-layout">
+                <div class="u-layout-row">
+                  <div class="u-container-align-center-lg u-container-align-center-md u-container-align-center-xl u-container-align-left-sm u-container-align-left-xs u-container-style u-layout-cell u-size-20-lg u-size-20-md u-size-20-xl u-size-30-sm u-size-30-xs u-layout-cell-1">
+                    <div class="u-container-layout u-valign-middle u-container-layout-1">
+                      <a href="mailto:info@bugiauto.com" class="u-active-none u-align-center-lg u-align-center-md u-align-center-xl u-align-left-sm u-align-left-xs u-border-active-palette-1-base u-border-hover-white u-btn u-button-link u-button-style u-hover-none u-none u-text-active-palette-1-light-2 u-text-body-alt-color u-text-hover-palette-1-light-2 u-btn-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><span class="u-file-icon u-icon u-text-white u-icon-4"><img src="images/2099199-390ae0a7.png" alt=""></span>&nbsp;info@bugimobiledetailing.com
+                      </a>
+                    </div>
+                  </div>
+                  <div class="u-container-align-center-lg u-container-align-center-md u-container-align-center-xl u-container-align-left-sm u-container-align-left-xs u-container-style u-layout-cell u-size-20-lg u-size-20-md u-size-20-xl u-size-30-sm u-size-30-xs u-layout-cell-2">
+                    <div class="u-container-layout u-valign-middle u-container-layout-2">
+                      <a href="tel:+12345678910" class="u-active-none u-align-center-lg u-align-center-md u-align-center-xl u-align-left-sm u-align-left-xs u-border-active-palette-1-base u-border-hover-white u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-active-palette-1-light-2 u-text-body-alt-color u-text-hover-palette-1-light-2 u-btn-2" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><span class="u-file-icon u-icon u-text-white"><img src="images/1257-846fd2c8.png" alt=""></span>&nbsp;​+1 (571) 584 9946
+                      </a>
+                    </div>
+                  </div>
+                  <div class="u-container-align-center-lg u-container-align-center-md u-container-align-center-xl u-container-align-left-sm u-container-align-left-xs u-container-style u-layout-cell u-size-20-lg u-size-20-md u-size-20-xl u-size-60-sm u-size-60-xs u-layout-cell-3" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+                    <div class="u-container-layout u-valign-middle u-container-layout-3">
+                      <p class="u-align-center-lg u-align-center-md u-align-center-xl u-align-left-sm u-align-left-xs u-text u-text-default u-text-1"><span class="u-file-icon u-icon u-text-white"><img src="images/447031-09d82861.png" alt=""></span>&nbsp;Service Area: DMV (DC, Maryland, Virginia)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          
+          
+          
+        </div>
+        <div class="u-section-row" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+          <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-2">
+            <a href="#" class="u-enable-responsive u-image u-logo u-image-1" data-image-width="413" data-image-height="143" style="max-width: 150px;">
+              <img src="images/bugi_logo.jpg" class="u-logo-image u-logo-image-1" style="width: 100%; height: auto;">
+            </a>
+            <nav class="u-dropdown-icon u-menu u-menu-mega u-offcanvas u-menu-1" data-responsive-from="MD" role="navigation">
+              <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 600;">
+                <a class="u-button-style u-custom-active-border-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-hamburger-link u-nav-link u-text-active-palette-1-light-1 u-text-hover-palette-1-light-1 u-text-palette-1-base" href="#" tabindex="-1" aria-label="Open menu" aria-controls="2096">
+                  <svg class="u-svg-link" viewBox="0 0 24 24"><use xlink:href="#menu-hamburger"></use></svg>
+                  <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</g></svg>
+                </a>
+              </div>
+              <div class="u-custom-menu u-nav-container">
+                <ul class="u-nav u-spacing-30 u-unstyled u-nav-1" role="menubar"><li role="none" class="u-nav-item"><a role="menuitem" class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="index.html" style="padding: 6px 0px;">Home Page</a>
+</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="About.html" style="padding: 6px 0px;">About Us</a>
+</li><li role="none" class="u-nav-item"><a tabindex="-1" role="menuitem" class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" aria-haspopup="true" style="padding: 6px 0px;">Pages</a><div class="level-2 u-nav-popup"><ul role="menu" class="u-h-spacing-22 u-nav u-unstyled u-v-spacing-12" aria-label="Pages menu"><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="Team.html">Gallery</a>
+</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="Pricing-Page.html">Pricing</a>
+</li></ul>
+</div>
+</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Pricing-Page.html" style="padding: 6px 0px;">Pricing</a>
+</li></ul>
+              </div>
+              <div class="u-custom-menu u-nav-container-collapse" id="2096" role="region" aria-label="Menu panel">
+                <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+                  <div class="u-inner-container-layout u-sidenav-overflow">
+                    <div class="u-menu-close" tabindex="-1" aria-label="Close menu"></div>
+                    <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-3" role="menubar"><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="index.html">Home Page</a>
+</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="About.html">About Us</a>
+</li><li role="none" class="u-nav-item"><a tabindex="-1" role="menuitem" class="u-button-style u-nav-link" aria-haspopup="true">Pages</a><div class="u-nav-popup"><ul role="menu" class="u-h-spacing-22 u-nav u-unstyled u-v-spacing-12" aria-label="Pages menu"><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="Team.html">Gallery</a>
+</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="Pricing-Page.html">Pricing</a>
+</li></ul>
+</div>
+</li><li role="none" class="u-nav-item"><a role="menuitem" class="u-button-style u-nav-link" href="Pricing-Page.html">Pricing</a>
+</li></ul>
+                  </div>
+                </div>
+                <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+              </div>
+              <style class="menu-style">@media (max-width: 939px) {
+                    [data-responsive-from="MD"] .u-nav-container {
+                        display: none;
+                    }
+                    [data-responsive-from="MD"] .menu-collapse {
+                        display: block;
+                    }
+                }</style>
+            </nav>
+            <a href="#" class="u-active-palette-5-dark-3 u-align-center u-border-none u-btn u-btn-round u-button-style u-enable-responsive u-hidden-xs u-hover-palette-5-dark-3 u-palette-1-base u-radius-2 u-text-active-white u-text-hover-white u-btn-3"> Get a Quote</a>
+          </div>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </header>
+    <section class="u-clearfix u-palette-1-light-3 u-section-1" id="carousel_8fae">
+      <div class="u-expanded-width u-palette-1-light-2 u-shape u-shape-rectangle u-shape-1" data-animation-name="flipIn" data-animation-duration="1000" data-animation-delay="500" data-animation-direction="X"></div>
+      <img src="images/expressDetailing.jpg" alt="" class="u-image u-image-default u-image-1" data-image-width="1200" data-image-height="801" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="0">
+      <div class="custom-expanded u-container-align-left u-container-style u-group u-white u-group-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="800" data-animation-direction="X">
+        <div class="u-container-layout u-valign-middle u-container-layout-1">
+          <h2 class="u-align-left u-text u-text-1">Our Pricing<br>
+          </h2>
+          <p class="u-align-left u-text u-text-2" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""> At Bugi Mobile Detailing, we believe in fair, straightforward pricing—no hidden fees, no surprise upcharges. Our goal is to deliver exceptional value at every level, so you always know exactly what you’re paying for. </p>
+          <a href="#carousel_9629" class="u-active-palette-5-dark-3 u-align-left u-border-none u-btn u-btn-round u-button-style u-hover-palette-5-dark-3 u-palette-1-base u-radius-2 u-text-active-white u-text-hover-white u-btn-1">Book Now </a>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-left u-clearfix u-container-align-left u-section-2" id="carousel_ead7">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-align-center u-text u-text-default u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500"> Our Detailing Packages</h2>
+        <p class="u-align-center u-text u-text-2" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500"> Pick the level of clean your car deserves. Mobile service. Transparent pricing.</p>
+        <div class="u-expanded-width u-table u-table-responsive u-table-1">
+          <table class="u-table-entity">
+            <colgroup>
+              <col width="50%">
+              <col width="25%">
+              <col width="25%">
+            </colgroup>
+            <tbody class="u-align-center u-table-body">
+              <tr style="height: 74px;">
+                <td class="u-align-left u-first-column u-palette-1-light-1 u-table-cell u-table-cell-1"> Your Washing Service</td>
+                <td class="u-align-center u-palette-1-light-1 u-table-cell u-table-cell-3"> Cost Range</td>
+                <td class="u-align-center u-palette-1-light-1 u-table-cell u-table-cell-4"></td>
+              </tr>
 
-@media (max-width: 991px) {
-   .u-section-1 {
-    min-height: 995px;
+              <tr style="height: 75px;">
+                <td class="u-align-left u-first-column u-table-cell u-table-cell-5"> Monthly Detail Membership</td>
+                <td class="u-grey-10 u-table-cell u-table-cell-7"> $100</td>
+                <td class="u-table-cell">
+                  <a class="u-active-grey-60 u-border-1 u-border-active-grey-60 u-border-grey-60 u-border-hover-grey-60 u-btn u-button-style u-hover-grey-60 u-white u-btn-1" href="#" onclick="openModal('modal8'); return false;">Details</a>
+                </td>
+              </tr>
+
+
+
+
+
+              <tr style="height: 75px;">
+                <td class="u-align-left u-first-column u-table-cell u-table-cell-5"> Express Basic Detail Package</td>
+                <td class="u-grey-10 u-table-cell u-table-cell-7"> $165.00 - $195.00</td>
+                <td class="u-table-cell">
+                  <a class="u-active-grey-60 u-border-1 u-border-active-grey-60 u-border-grey-60 u-border-hover-grey-60 u-btn u-button-style u-hover-grey-60 u-white u-btn-1" href="#" onclick="openModal('modal1'); return false;">Details</a>
+                </td>
+              </tr>
+              <tr style="height: 75px;">
+                <td class="u-align-left u-table-cell u-table-cell-9"> Full Interior Detail Package</td>
+                <td class="u-grey-10 u-table-cell u-table-cell-11"> $200.00 - $230.00</td>
+                <td class="u-table-cell">
+                  <a class="u-active-grey-60 u-border-1 u-border-active-grey-60 u-border-grey-60 u-border-hover-grey-60 u-btn u-button-style u-hover-grey-60 u-white u-btn-2" href="#" onclick="openModal('modal2'); return false;">Details</a>
+                </td>
+              </tr>
+              <tr style="height: 75px;">
+                <td class="u-align-left u-table-cell u-table-cell-13"> Full Exterior Detail Package</td>
+                <td class="u-grey-10 u-table-cell u-table-cell-15"> $150.00 - $185.00</td>
+                <td class="u-table-cell">
+                  <a class="u-active-grey-60 u-border-1 u-border-active-grey-60 u-border-grey-60 u-border-hover-grey-60 u-btn u-button-style u-hover-grey-60 u-white u-btn-3" href="#" onclick="openModal('modal3'); return false;">Details</a>
+                </td>
+              </tr>
+              <tr style="height: 75px;">
+                <td class="u-align-left u-table-cell u-table-cell-17"> Complete In & Out Detail Packages</td>
+                <td class="u-grey-10 u-table-cell u-table-cell-19"> $290.00 - $325.00</td>
+                <td class="u-table-cell">
+                  <a class="u-active-grey-60 u-border-1 u-border-active-grey-60 u-border-grey-60 u-border-hover-grey-60 u-btn u-button-style u-hover-grey-60 u-white u-btn-4" href="#" onclick="openModal('modal4'); return false;">Details</a>
+                </td>
+              </tr>
+
+              <tr style="height: 75px;">
+                <td class="u-align-left u-table-cell u-table-cell-17"> Ceramic Coating</td>
+                <td class="u-grey-10 u-table-cell u-table-cell-19">Starts at $549.00</td>
+                <td class="u-table-cell">
+                  <a class="u-active-grey-60 u-border-1 u-border-active-grey-60 u-border-grey-60 u-border-hover-grey-60 u-btn u-button-style u-hover-grey-60 u-white u-btn-4" href="#" onclick="openModal('modal5'); return false;">Details</a>
+                </td>
+              </tr>
+
+              <tr style="height: 75px;">
+                <td class="u-align-left u-table-cell u-table-cell-17"> Paint Correction</td>
+                <td class="u-grey-10 u-table-cell u-table-cell-19"> Starts at $349.00</td>
+                <td class="u-table-cell">
+                  <a class="u-active-grey-60 u-border-1 u-border-active-grey-60 u-border-grey-60 u-border-hover-grey-60 u-btn u-button-style u-hover-grey-60 u-white u-btn-4" href="#" onclick="openModal('modal6'); return false;">Details</a>
+                </td>
+              </tr>
+              
+              <tr style="height: 75px;">
+                <td class="u-align-left u-table-cell u-table-cell-17"> Adds on</td>
+                <td class="u-grey-10 u-table-cell u-table-cell-19"> Price varies</td>
+                <td class="u-table-cell">
+                  <a class="u-active-grey-60 u-border-1 u-border-active-grey-60 u-border-grey-60 u-border-hover-grey-60 u-btn u-button-style u-hover-grey-60 u-white u-btn-4" href="#" onclick="openModal('modal7'); return false;">Details</a>
+                </td>
+              </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </tbody>
+          </table>
+        </div>
+        <a href="#carousel_9629" class="u-active-palette-5-dark-3 u-align-left u-border-none u-btn u-btn-round u-button-style u-hover-palette-5-dark-3 u-palette-1-base u-radius u-text-active-white u-text-hover-white u-btn-9" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">Book Now </a>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-container-align-center u-palette-1-light-3 u-section-3" id="carousel_bc3e">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h2 class="u-align-center u-text u-text-default u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="0"> Schedule Your Appointment Today</h2>
+        <p class="u-align-center u-large-text u-text u-text-variant u-text-2" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="0"> Your Car Detailing Service &amp; Bests for Bests  </p>
+        <a href="#carousel_9629" class="u-active-palette-5-dark-3 u-align-center u-border-none u-btn u-btn-round u-button-style u-hover-palette-5-dark-3 u-palette-1-base u-radius-2 u-text-active-white u-text-hover-white u-btn-1" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">Book Now </a>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-4" id="carousel_9629">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="data-layout-selected u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-layout-cell u-size-20 u-layout-cell-1">
+                <div class="u-container-layout u-container-layout-1">
+                  <h2 class="u-text u-text-default u-text-1">Write Us</h2>
+                  <p class="u-align-left u-text u-text-2">Images from <a href="https://www.freepik.com" class="u-active-none u-border-1 u-border-active-palette-1-base u-border-black u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-button-link u-button-style u-hover-none u-none u-radius-0 u-text-body-color u-top-left-radius-0 u-top-right-radius-0 u-btn-1" target="_blank">Freepik</a>
+                  </p>
+                </div>
+              </div>
+              <div class="u-container-style u-layout-cell u-size-40 u-layout-cell-2">
+                <div class="u-container-layout u-container-layout-2">
+                  <div class="u-form u-form-1">
+                    <form action="mailto:info@bugiauto.com" method="post" enctype="text/plain" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" name="contact-form" style="padding: 10px;">
+                      <div class="u-form-group u-form-name">
+                        <label for="name-175e" class="u-label">Name</label>
+                        <input type="text" placeholder="Enter your Name" id="name-175e" name="Name" class="u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle" required="">
+                      </div>
+                      <div class="u-form-email u-form-group">
+                        <label for="email-175e" class="u-label">Email</label>
+                        <input type="email" placeholder="Enter a valid email address" id="email-175e" name="Email" class="u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle" required="">
+                      </div>
+                      <div class="u-form-group u-form-message">
+                        <label for="message-175e" class="u-label">Message</label>
+                        <textarea placeholder="Enter your message(including your phone number and your car model)" rows="4" cols="50" id="message-175e" name="Message" class="u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle" required=""></textarea>
+                      </div>
+                      <div class="u-align-right u-form-group u-form-submit">
+                        <button type="submit" class="u-border-none u-btn u-btn-submit u-button-style u-btn-2">Send a message</button>
+                      </div>
+                      <div class="u-form-send-message u-form-send-success">Thank you! Your message has been sent.</div>
+                      <div class="u-form-send-error u-form-send-message">Unable to send your message. Please fix errors then try again.</div>
+                      <input type="hidden" value="" name="recaptchaResponse">
+                      <input type="hidden" name="formServices" value="">
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="u-clearfix u-section-5" id="carousel_ffc8">
+      <div class="u-expanded u-grey-10 u-map">
+        <div class="embed-responsive">
+          <iframe class="embed-responsive-item" src="//maps.google.com/maps?output=embed&amp;q=Manhattan&amp;t=m" data-map="JTdCJTIyYWRkcmVzcyUyMiUzQSUyMk1hbmhhdHRhbiUyMiUyQyUyMnpvb20lMjIlM0FudWxsJTJDJTIydHlwZUlkJTIyJTNBJTIycm9hZCUyMiUyQyUyMmxhbmclMjIlM0FudWxsJTJDJTIyYXBpS2V5JTIyJTNBbnVsbCUyQyUyMm1hcmtlcnMlMjIlM0ElNUIlNUQlN0Q="></iframe>
+        </div>
+      </div>
+    </section> -->
+    
+    
+    
+
+
+
+
+
+    <footer class="u-align-center u-clearfix u-container-align-center u-container-align-center-lg u-container-align-center-md u-container-align-center-xl u-container-align-left-sm u-container-align-left-xs u-footer u-palette-1-dark-3 u-footer" id="sec-bccd"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="data-layout-selected u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-align-left u-container-style u-layout-cell u-shape-rectangle u-size-14-lg u-size-14-xl u-size-22-md u-size-22-sm u-size-22-xs u-layout-cell-1">
+                <div class="u-container-layout u-valign-middle u-container-layout-1">
+                  <img class="u-image u-image-contain u-image-default u-image-1" src="images/bugi_logo.jpg" alt="" data-image-width="413" data-image-height="143">
+                </div>
+              </div>
+              <div class="u-container-align-left-md u-container-align-left-sm u-container-align-left-xs u-container-align-right-lg u-container-align-right-xl u-container-style u-layout-cell u-size-19-lg u-size-21-xl u-size-38-md u-size-38-sm u-size-38-xs u-layout-cell-2">
+                <div class="u-container-layout u-valign-middle u-container-layout-2">
+                  <p class="u-align-left-md u-align-left-sm u-align-left-xs u-align-right-lg u-align-right-xl u-text u-text-default u-text-1"> Exclusive Service &amp; Pricing</p>
+                </div>
+              </div>
+              <div class="u-container-align-left-sm u-container-align-left-xs u-container-style u-layout-cell u-size-25-xl u-size-27-lg u-size-60-md u-size-60-sm u-size-60-xs u-layout-cell-3">
+                <div class="u-container-layout u-valign-middle-xl u-container-layout-3">
+                  <div class="u-form u-form-1">
+                    <form action="https://forms.nicepagesrv.com/v2/form/process" class="u-clearfix u-form-horizontal u-form-spacing-10 u-inner-form" source="email" name="form" style="padding: 2px;">
+                      <div class="u-form-email u-form-group u-label-none">
+                        <label for="email-175e" class="u-label">Email</label>
+                        <input type="email" placeholder="Enter a valid email address" id="email-175e" name="email" class="u-border-no-left u-border-no-right u-border-no-top u-input u-input-rectangle u-input-1" required="">
+                      </div>
+                      <div class="u-align-center u-form-group u-form-submit u-label-none">
+                        <a href="#" class="u-border-none u-btn u-btn-submit u-button-style u-palette-1-base u-btn-1">send a message</a>
+                        <input type="submit" value="submit" class="u-form-control-hidden">
+                      </div>
+                      <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
+                      <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
+                      <input type="hidden" value="" name="recaptchaResponse">
+                      <input type="hidden" name="formServices" value="6e50d762-c7a7-34ab-394a-85734c4631ce">
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="u-align-center-lg u-align-center-md u-align-center-xl u-align-left-sm u-align-left-xs u-border-3 u-border-grey-75 u-expanded-width u-line u-line-horizontal u-line-1"></div>
+        <div class="data-layout-selected u-clearfix u-expanded-width u-layout-custom-sm u-layout-custom-xs u-layout-wrap u-layout-wrap-2">
+          <div class="u-gutter-0 u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-align-left u-container-style u-layout-cell u-shape-rectangle u-size-15-lg u-size-15-xl u-size-30-md u-size-30-sm u-size-60-xs u-layout-cell-4">
+                <div class="u-container-layout u-valign-top u-container-layout-4">
+                  <h4 class="u-align-left u-text u-text-2">Services</h4>
+                  <div class="u-border-3 u-border-palette-1-base u-line u-line-horizontal u-line-2"></div>
+                  <p class="u-align-left u-text u-text-3">
+                    <a href="#" class="u-active-none u-border-1 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-btn u-button-link u-button-style u-hover-none u-none u-text-active-palette-1-base u-text-body-alt-color u-text-hover-palette-1-base u-btn-2" title="#" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""> Full Interior Detail Package</a>
+                    <a href="#" class="u-active-none u-border-1 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-btn u-button-link u-button-style u-hover-none u-none u-text-active-palette-1-base u-text-body-alt-color u-text-hover-palette-1-base u-btn-3" title="#" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+                      <br>Express Basic Detail Package
+                    <br>
+                    <a href="#" class="u-active-none u-border-1 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-btn u-button-link u-button-style u-hover-none u-none u-text-active-palette-1-base u-text-body-alt-color u-text-hover-palette-1-base u-btn-4" title="#" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""> Full Exterior Detail Package<br>
+                    </a>
+                    <a href="#" class="u-active-none u-border-1 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-btn u-button-link u-button-style u-hover-none u-none u-text-active-palette-1-base u-text-body-alt-color u-text-hover-palette-1-base u-btn-5" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""> Complete In & Out Detail Packages</a>
+                    <br>
+                  
+                  </p>
+                </div>
+              </div>
+              <div class="u-container-align-left u-container-style u-layout-cell u-shape-rectangle u-size-15-lg u-size-15-xl u-size-30-md u-size-30-sm u-size-60-xs u-layout-cell-5">
+                <div class="u-container-layout u-valign-top u-container-layout-5">
+                  <h4 class="u-align-left u-text u-text-4"> Quick Links</h4>
+                  <div class="u-border-3 u-border-palette-1-base u-line u-line-horizontal u-line-3"></div>
+                  <p class="u-align-left u-text u-text-5">
+                    <a href="#" class="u-active-none u-border-1 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-btn u-button-link u-button-style u-hover-none u-none u-text-active-palette-1-base u-text-body-alt-color u-text-hover-palette-1-base u-btn-7" title="#" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">About Us</a>
+                    <a href="Pricing-Page.html" class="u-active-none u-border-1 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-btn u-button-link u-button-style u-hover-none u-none u-text-active-palette-1-base u-text-body-alt-color u-text-hover-palette-1-base u-btn-8" title="#" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+                      <br>Pricing
+                    </a>
+                    <br>
+                    
+                    <br>
+                  </p>
+                </div>
+              </div>
+              <div class="u-container-align-left u-container-style u-layout-cell u-shape-rectangle u-size-15-lg u-size-15-xl u-size-30-md u-size-30-sm u-size-60-xs u-layout-cell-6">
+                <div class="u-container-layout u-valign-top u-container-layout-6">
+                  <h4 class="u-align-left u-text u-text-6"> Get In Touch</h4>
+                  <div class="u-border-3 u-border-palette-1-base u-line u-line-horizontal u-line-4"></div>
+                  <p class="u-align-left u-text u-text-7"><span class="u-file-icon u-icon u-text-palette-1-base"><img src="images/4.png" alt=""></span>&nbsp;​​Service Area: DMV (DC, Maryland, Virginia)
+                  </p>
+                  <p class="u-align-left u-text u-text-default u-text-8"><span class="u-file-icon u-icon u-text-palette-1-base"><img src="images/5.png" alt=""></span>&nbsp; <a href="mailto:info@bugiauto.com" class="u-active-none u-border-1 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-btn u-button-link u-button-style u-hover-none u-none u-text-active-palette-1-base u-text-body-alt-color u-text-hover-palette-1-base u-btn-12" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">info@bugimobiledetailing.com</a>
+                  </p>
+                  <p class="u-align-left u-text u-text-9">
+                    <a href="tel:+12345678910" class="u-active-none u-border-1 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-btn u-button-link u-button-style u-hover-none u-none u-text-active-palette-1-base u-text-body-alt-color u-text-hover-palette-1-base u-btn-13" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><span class="u-file-icon u-icon u-text-palette-1-base"><img src="images/6.png" alt=""></span>&nbsp;​+1 (571) 584 9946
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <div class="u-container-align-left u-container-style u-layout-cell u-shape-rectangle u-size-15-lg u-size-15-xl u-size-30-md u-size-30-sm u-size-60-xs u-layout-cell-7">
+                <div class="u-container-layout u-valign-top u-container-layout-7">
+                  <h4 class="u-align-left u-text u-text-10"> Working Hours:</h4>
+                  <div class="u-border-3 u-border-palette-1-base u-line u-line-horizontal u-line-5"></div>
+                  <p class="u-align-left u-text u-text-11"> Mon - Sun <br>9:00 AM - 7:00 PM 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="u-align-center-lg u-align-center-md u-align-center-xl u-align-left-sm u-align-left-xs u-text u-text-default u-text-12" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="800">Images from <a href="https://www.freepik.com/" class="u-border-1 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-border-white u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-button-link u-button-style u-none u-radius-0 u-text-active-white u-text-body-alt-color u-text-hover-white u-top-left-radius-0 u-top-right-radius-0 u-btn-14" target="_blank">Freepik</a>
+        </p>
+      </div>
+    
+    
+    
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="u-backlink u-clearfix u-grey-80"></section>
+  <!-- Modal 1 -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <span class="modal-close" onclick="closeModal('modal1')">&times;</span>
+      <h3>Express Basic Detail Package</h3>
+      <p>
+        <p>A quick in &amp; out refresh — for lightly soiled vehicles</p>
+
+<h4>Interior</h4>
+<ul>
+  <li>Light vacuum (seats, carpets, trunk)</li>
+  <li>Wipe down of dash, console &amp; panels</li>
+  <li>Interior glass cleaned</li>
+  <li>Air vents blown out</li>
+  <li>Light scent spray</li>
+</ul>
+
+<h4>Exterior</h4>
+<ul>
+  <li>Foam hand wash</li>
+  <li>Wheels cleaned</li>
+  <li>Tire dressing</li>
+  <li>Door jambs wiped</li>
+  <li>Exterior glass cleaned</li>
+  <li>Quick spray wax</li>
+</ul>
+
+<h4>Pricing</h4>
+<ul>
+  <li>Sedan / Coupe: $165</li>
+  <li>Small–Mid SUV: $180</li>
+  <li>Large SUV / Truck: $195</li>
+</ul>
+
+<p>🔹 Best for lightly used, well-maintained vehicles</p>
+<p>🔸 Not for deep cleaning or neglected interiors</p>
+
+
+
+
+
+
+
+
+      </p>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <span class="modal-close" onclick="closeModal('modal2')">&times;</span>
+      <h3>Full Interior Detail Package</h3>
+      <p>
+        <ul>
+  <li>Deep vacuum (seats, carpets, trunk)</li>
+  <li>Clean door panels, dashboard &amp; all plastic surfaces</li>
+  <li>Shampoo &amp; deep clean seats and carpets</li>
+  <li>Leather seat conditioning (if applicable)</li>
+  <li>Interior window cleaning</li>
+  <li>Full steam sanitization of all interior surfaces</li>
+  <li>AC vent steam cleaning</li>
+  <li>Compressed air blow-out of all cracks &amp; crevices</li>
+  <li>Dress &amp; shine all plastic and vinyl surfaces</li>
+</ul>
+
+<h4>Pricing</h4>
+<ul>
+  <li>Sedan / Coupe / Hatchback: $200</li>
+  <li>Small–Mid SUV: $215</li>
+  <li>Large SUV / 3-Row SUV / Minivan / Truck: $230</li>
+</ul>
+
+
+
+
+
+
+
+      </p>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <span class="modal-close" onclick="closeModal('modal3')">&times;</span>
+      <h3>Full Exterior Detail Package</h3>
+      <p>
+        <ul>
+  <li>Deep wheel detail (face, barrels, wheel wells)</li>
+  <li>Tire cleaning &amp; high-gloss tire dressing</li>
+  <li>Foam bath with pH-neutral soap</li>
+  <li>Clean door jambs, trunk lid, gas cap area</li>
+  <li>Clay bar treatment to remove surface contaminants</li>
+  <li>Apply wax or sealant for long-lasting shine &amp; protection</li>
+  <li>Restore &amp; shine all exterior trims and plastics</li>
+  <li>Exterior window cleaning</li>
+  <li>Dress &amp; shine exterior trims and wheel wells</li>
+</ul>
+
+<h4>Pricing</h4>
+<ul>
+  <li>Sedan / Coupe / Hatchback: $150</li>
+  <li>Small–Mid SUV: $165</li>
+  <li>Large SUV / Minivan / Truck: $185</li>
+</ul>
+
+
+
+
+
+
+
+      </p>
+    </div>
+  </div>
+
+  <!-- Modal 4 -->
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+      <span class="modal-close" onclick="closeModal('modal4')">&times;</span>
+      <h3>Complete In & Out Detail Packages</h3>
+      <p>
+        <p>The ultimate full-service detail — your vehicle will be restored to peak condition, inside and out. This all-inclusive package is designed to fully clean, protect, and renew your vehicle. Ideal for cars that haven't been detailed in a while, or for anyone looking to reset their vehicle to a professionally maintained state.</p>
+
+<h4>🔹 Interior Services – Full Interior Rejuvenation</h4>
+<ul>
+  <li>Deep vacuum of all carpets, seats, and trunk area</li>
+  <li>Wipe and clean all plastic surfaces (dash, door panels, center console)</li>
+  <li>Shampoo &amp; deep-clean fabric seats and carpets</li>
+  <li>Leather conditioning (if applicable)</li>
+  <li>Full steam sanitization of all interior surfaces</li>
+  <li>AC vent steam cleaning</li>
+  <li>Compressed air blow-out of cracks, buttons &amp; tight spaces</li>
+  <li>Dress &amp; protect all plastic and vinyl surfaces</li>
+  <li>Streak-free interior window cleaning</li>
+</ul>
+
+<h4>🔸 Exterior Services – Full Exterior Restoration</h4>
+<ul>
+  <li>Deep wheel cleaning (face, barrels, wheel wells)</li>
+  <li>Tire cleaning and high-gloss dressing</li>
+  <li>Foam bath with pH-neutral soap</li>
+  <li>Clean door jambs, gas cap, and trunk edges</li>
+  <li>Clay bar treatment to remove bonded contaminants</li>
+  <li>Hand application of wax or sealant for protection and shine</li>
+  <li>Restore &amp; protect all exterior plastic trims</li>
+  <li>Crystal-clear exterior glass cleaning</li>
+  <li>Dress and shine wheel wells and exterior trims</li>
+</ul>
+
+<h4>Pricing</h4>
+<ul>
+  <li>Sedan / Coupe / Hatchback: $290</li>
+  <li>Small–Mid-Size SUV: $300</li>
+  <li>Large SUV / 3-Row SUV / Minivan / Truck: $325</li>
+</ul>
+
+
+
+
+      </p>
+    </div>
+  </div>
+
+<!-- Modal 5 -->
+
+
+  <div id="modal5" class="modal">
+    <div class="modal-content">
+      <span class="modal-close" onclick="closeModal('modal5')">&times;</span>
+      <h3>Ceramic Coating</h3>
+      <p>
+  <h4>Standard Ceramic Coating Package</h4>
+  <ul>
+    <li><strong>Starting at:</strong> $549</li>
+    <li><strong>Best for:</strong> New or well-maintained vehicles (under 2–3 years old)</li>
+    <li><strong>What’s Included:</strong>
+      <ul>
+        <li>✔ Full exterior hand wash (foam bath + pH-neutral shampoo)</li>
+        <li>✔ Clay bar decontamination to remove embedded contaminants</li>
+        <li>✔ One-step paint correction to remove light swirls & enhance gloss</li>
+        <li>✔ Wheels cleaned + tires dressed</li>
+        <li>✔ Ceramic Coating (5–7 years) applied to: Paint, Glass, Wheels</li>
+      </ul>
+    </li>
+    <li><strong>Benefits:</strong>
+      <ul>
+        <li>Long-term protection against UV, chemicals, water spots</li>
+        <li>Super slick finish & extreme water beading</li>
+        <li>Preserves factory gloss and resale value</li>
+      </ul>
+    </li>
+    <li><strong>Perfect for:</strong>
+      <ul>
+        <li>Leased or recently purchased vehicles</li>
+        <li>Clients who want maintenance-free shine with peace of mind</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h4>Advanced Ceramic Coating Package</h4>
+  <ul>
+    <li><strong>Starting at:</strong> $849</li>
+    <li><strong>Best for:</strong> Vehicles with visible swirl marks, oxidation, or dull paint</li>
+    <li><strong>What’s Included:</strong>
+      <ul>
+        <li>✔ Full exterior hand wash + foam cannon pre-rinse</li>
+        <li>✔ Clay bar decontamination</li>
+        <li>✔ Two-step paint correction (cut & polish)</li>
+        <li>✔ Wheels deep cleaned, tires dressed</li>
+        <li>✔ Ceramic Coating (5–7 years) applied to: Paint, Glass, Wheels</li>
+      </ul>
+    </li>
+    <li><strong>Benefits:</strong>
+      <ul>
+        <li>Revives tired, oxidized paint</li>
+        <li>Provides deep, mirror-like gloss</li>
+        <li>Maximum protection against the elements</li>
+      </ul>
+    </li>
+    <li><strong>Perfect for:</strong>
+      <ul>
+        <li>Older vehicles or daily drivers</li>
+        <li>Car enthusiasts who want showroom-level finish with long-term protection</li>
+      </ul>
+    </li>
+  </ul>
+</p>
+    </div>
+  </div>
+ 
+<!-- Modal 6 -->
+
+  <div id="modal6" class="modal">
+    <div class="modal-content">
+      <span class="modal-close" onclick="closeModal('modal6')">&times;</span>
+      <h3>Paint Correction</h3>
+      <p>
+        <h4>One-Step Paint Correction</h4>
+        <ul>
+          <li><strong>Starting at:</strong> $349</li>
+          <li>Full hand wash</li>
+          <li>Clay bar decontamination</li>
+          <li>One-step machine polish</li>
+          <li>Tires dressed</li>
+          <li>Final paint inspection</li>
+        </ul>
+        <p>Best for: Light swirl marks and restoring basic gloss.</p>
+        <p>Restore your vehicle’s shine with our One-Step Paint Correction package. This service includes a full hand wash, clay bar decontamination, and a one-step machine polish to remove light swirl marks and haze. Perfect for cars that need a quick refresh and enhanced gloss. Tires are dressed and a final paint inspection ensures quality results. Ideal for lightly worn paint looking to regain its factory shine.</p>
+
+        <h4>Two-Step Paint Correction</h4>
+        <ul>
+          <li><strong>Starting at:</strong> $649</li>
+          <li>Full hand wash</li>
+          <li>Clay bar decontamination</li>
+          <li>Compound (cutting stage)</li>
+          <li>Polish (refining stage)</li>
+          <li>Tires dressed</li>
+          <li>Final paint inspection</li>
+        </ul>
+        <p>Best for: Moderate to heavy swirl marks, oxidation, and dull paint.</p>
+        <p>For vehicles with moderate to heavy swirl marks, oxidation, or dull paint, our Two-Step Paint Correction package offers a deeper restoration. This comprehensive service includes full hand washing, clay bar decontamination, a compound cutting stage followed by a polishing stage, and tire dressing. The process significantly improves clarity and gloss, revitalizing your vehicle’s paint to near-new condition. A final paint inspection guarantees the best possible finish.</p>
+      </p>
+    </div>
+  </div>
+
+<!-- Modal 7 -->
+
+  <div id="modal7" class="modal">
+    <div class="modal-content">
+      <span class="modal-close" onclick="closeModal('modal7')">&times;</span>
+      <h3>Adds on</h3>
+      <p>
+        <h4>Add-On Services</h4>
+        <ul>
+          <li><strong>Headlight Restoration:</strong> Restore faded or yellowed headlights for better visibility and a clean, new look. <strong>Price:</strong> $85</li>
+          <li><strong>Pet Hair Removal:</strong> Thorough removal of embedded pet hair from seats, carpets, and upholstery. <strong>Price:</strong> $30–$60 (Depends on hair amount)</li>
+          <li><strong>Engine Bay Detailing:</strong> Degrease and clean the engine bay safely for a refreshed, professional appearance. <strong>Price:</strong> $65</li>
+          <li><strong>Ozone Treatment (Odor Removal):</strong> Eliminates smoke, pet, and mildew odors with deep-penetrating ozone gas. <strong>Price:</strong> $50</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+
+  <!-- Modal 8 -->
+  <div id="modal8" class="modal">
+    <div class="modal-content">
+      <span class="modal-close" onclick="closeModal('modal8')">&times;</span>
+      <h3>Monthly Detailed Membership</h3>
+      <p>
+        <h4>Monthly Maintenance Detailing – $100/month</h4>
+        <p>Keep your car clean, protected, and shining all year round.</p>
+        <p>After your initial Full Interior & Exterior Detail, you're eligible to join our Monthly Maintenance Plan — the easiest way to keep your vehicle in top condition all year.</p>
+        <h4>What's Included Every Month:</h4>
+        <ul>
+          <li>✅ Hand wash and dry – gentle on your paint</li>
+          <li>✅ Interior and trunk vacuuming + full wipe-down</li>
+          <li>✅ Tire shine and streak-free glass cleaning</li>
+          <li>✅ Quick spray sealant or ceramic booster for lasting gloss and protection</li>
+        </ul>
+        <p>One appointment per month</p>
+        <p>Fixed rate: $100/month — all vehicle sizes welcome</p>
+        <p>No Extra Fees — Ever.</p>
+        <p>Even if your vehicle gets heavily soiled within the month, we’ll perform a full detail at no extra cost. That’s our commitment to keeping our monthly members’ cars consistently clean and showroom-quality all year long.</p>
+        <p>This plan is perfect for busy individuals who want lasting cleanliness, gloss, and protection — without the hassle of scheduling or hidden fees.</p>
+      </p>
+    </div>
+  </div>
+  
+
+
+  <script>
+  function openModal(id) {
+    document.getElementById(id).style.display = 'block';
   }
-
-  .u-section-1 .u-image-1 {
-    width: 720px;
-    height: 427px;
+  function closeModal(id) {
+    document.getElementById(id).style.display = 'none';
   }
-
-  .u-section-1 .u-group-1 {
-    width: 477px;
-    min-height: 477px;
-    margin-top: -74px;
-    margin-right: calc(((100% - 720px) / 2)  + 51px);
-  }
-}
-
-@media (max-width: 767px) {
-   .u-section-1 {
-    min-height: 904px;
-  }
-
-  .u-section-1 .u-shape-1 {
-    height: 278px;
-  }
-
-  .u-section-1 .u-image-1 {
-    width: 540px;
-    height: 329px;
-    margin-top: -204px;
-  }
-
-  .u-section-1 .u-group-1 {
-    width: 417px;
-    min-height: 480px;
-    margin-top: -51px;
-    margin-right: auto;
-  }
-
-  .u-section-1 .u-container-layout-1 {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
-@media (max-width: 575px) {
-   .u-section-1 {
-    min-height: 782px;
-  }
-
-  .u-section-1 .u-shape-1 {
-    height: 200px;
-  }
-
-  .u-section-1 .u-image-1 {
-    width: 340px;
-    height: 224px;
-    margin-top: -140px;
-  }
-
-  .u-section-1 .u-group-1 {
-    width: 340px;
-    margin-top: 71px;
-  }
-}.u-section-2 .u-sheet-1 {
-  min-height: 1117px;
-}
-
-.u-section-2 .u-text-1 {
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 0.3;
-  margin: 71px auto 0;
-}
-
-.u-section-2 .u-text-2 {
-  width: 797px;
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 0.3;
-  margin: 33px auto 0;
-}
-
-.u-section-2 .u-table-1 {
-  margin-top: 45px;
-  margin-bottom: 0;
-}
-
-.u-block-ea08-4 {
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.u-block-ea08-93 {
-  height: 46px;
-}
-
-.u-block-ea08-94 {
-  background-image: none;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-.u-block-ea08-96 {
-  background-image: none;
-  font-weight: 700;
-}
-
-.u-block-ea08-147 {
-  background-image: none;
-  font-weight: 700;
-}
-
-.u-block-ea08-97 {
-  background-image: none;
-  font-weight: 700;
-}
-
-.u-section-2 .u-table-cell-1 {
-  background-image: none;
-  text-transform: none;
-  font-weight: 700;
-}
-
-.u-section-2 .u-table-cell-2 {
-  font-weight: 700;
-  background-image: none;
-}
-
-.u-section-2 .u-table-cell-3 {
-  font-weight: 700;
-  background-image: none;
-}
-
-.u-section-2 .u-table-cell-4 {
-  font-weight: 700;
-  background-image: none;
-}
-
-.u-section-2 .u-table-cell-5 {
-  font-weight: 700;
-}
-
-.u-section-2 .u-table-cell-6 {
-  font-weight: 700;
-}
-
-.u-section-2 .u-table-cell-7 {
-  font-weight: 700;
-  background-image: none;
-}
-
-.u-section-2 .u-btn-1 {
-  background-image: none;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-style: solid;
-  font-size: 0.875rem;
-  padding: 10px 31px 11px 29px;
-}
-
-.u-section-2 .u-table-cell-9 {
-  font-weight: 700;
-}
-
-.u-section-2 .u-table-cell-10 {
-  font-weight: 700;
-}
-
-.u-section-2 .u-table-cell-11 {
-  font-weight: 700;
-  background-image: none;
-}
-
-.u-section-2 .u-btn-2 {
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-style: solid;
-  font-size: 0.875rem;
-  padding: 10px 31px 11px 29px;
-}
-
-.u-section-2 .u-table-cell-13 {
-  font-weight: 700;
-}
-
-.u-section-2 .u-table-cell-14 {
-  font-weight: 700;
-}
-
-.u-section-2 .u-table-cell-15 {
-  font-weight: 700;
-  background-image: none;
-}
-
-.u-section-2 .u-btn-3 {
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-style: solid;
-  font-size: 0.875rem;
-  padding: 10px 31px 11px 29px;
-}
-
-.u-section-2 .u-table-cell-17 {
-  font-weight: 700;
-}
-
-.u-section-2 .u-table-cell-18 {
-  font-weight: 700;
-}
-
-.u-section-2 .u-table-cell-19 {
-  font-weight: 700;
-  background-image: none;
-}
-
-.u-section-2 .u-btn-4 {
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-style: solid;
-  font-size: 0.875rem;
-  padding: 10px 31px 11px 29px;
-}
-
-.u-section-2 .u-table-cell-21 {
-  font-weight: 700;
-}
-
-.u-section-2 .u-table-cell-22 {
-  font-weight: 700;
-}
-
-.u-section-2 .u-table-cell-23 {
-  font-weight: 700;
-  background-image: none;
-}
-
-.u-section-2 .u-btn-5 {
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-style: solid;
-  font-size: 0.875rem;
-  padding: 10px 31px 11px 29px;
-}
-
-.u-section-2 .u-table-cell-25 {
-  font-weight: 700;
-}
-
-.u-section-2 .u-table-cell-26 {
-  font-weight: 700;
-}
-
-.u-section-2 .u-table-cell-27 {
-  font-weight: 700;
-  background-image: none;
-}
-
-.u-section-2 .u-btn-6 {
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-style: solid;
-  font-size: 0.875rem;
-  padding: 10px 31px 11px 29px;
-}
-
-.u-section-2 .u-table-cell-29 {
-  font-weight: 700;
-}
-
-.u-section-2 .u-table-cell-30 {
-  font-weight: 700;
-}
-
-.u-section-2 .u-table-cell-31 {
-  font-weight: 700;
-  background-image: none;
-}
-
-.u-section-2 .u-btn-7 {
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-style: solid;
-  font-size: 0.875rem;
-  padding: 10px 31px 11px 29px;
-}
-
-.u-section-2 .u-table-cell-33 {
-  font-weight: 700;
-}
-
-.u-section-2 .u-table-cell-34 {
-  font-weight: 700;
-}
-
-.u-section-2 .u-table-cell-35 {
-  font-weight: 700;
-  background-image: none;
-}
-
-.u-section-2 .u-btn-8 {
-  border-style: solid;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 0.875rem;
-}
-
-.u-block-ea08-35 {
-  background-image: none;
-}
-
-.u-section-2 .u-btn-9 {
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 2px;
-  font-size: 0.875rem;
-  align-self: center;
-  --radius: 2px;
-  background-image: none;
-  margin: 62px auto 60px;
-  padding: 20px 45px;
-}
-
-@media (max-width: 1199px) {
-  .u-section-2 .u-btn-9 {
-    border-style: none;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-2 .u-text-2 {
-    width: 720px;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-section-2 .u-text-2 {
-    width: 540px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-section-2 .u-text-2 {
-    width: 340px;
-  }
-} .u-section-3 {
-  background-image: none;
-}
-
-.u-section-3 .u-sheet-1 {
-  min-height: 506px;
-}
-
-.u-section-3 .u-text-1 {
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 0.3;
-  margin: 60px auto 0;
-}
-
-.u-section-3 .u-text-2 {
-  width: 899px;
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 0.3;
-  margin: 50px auto 0;
-}
-
-.u-section-3 .u-btn-1 {
-  border-style: none;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 0.875rem;
-  align-self: center;
-  background-image: none;
-  font-weight: 700;
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 300px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 0.3;
-  margin: 50px auto 60px;
-  padding: 20px 46px 20px 44px;
-}
-
-@media (max-width: 991px) {
-  .u-section-3 .u-text-2 {
-    width: 720px;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-section-3 .u-text-2 {
-    width: 540px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-section-3 .u-text-2 {
-    width: 340px;
-  }
-}.u-section-4 .u-sheet-1 {
-  min-height: 599px;
-}
-
-.u-section-4 .u-layout-wrap-1 {
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
-
-.u-section-4 .u-layout-cell-1 {
-  min-height: 479px;
-}
-
-.u-section-4 .u-container-layout-1 {
-  padding: 30px 30px 30px 0;
-}
-
-.u-section-4 .u-text-1 {
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-.u-section-4 .u-text-2 {
-  margin: 20px 0 0;
-}
-
-.u-section-4 .u-btn-1 {
-  background-image: none;
-  padding: 0;
-}
-
-.u-section-4 .u-layout-cell-2 {
-  min-height: 479px;
-}
-
-.u-section-4 .u-container-layout-2 {
-  padding: 30px;
-}
-
-.u-section-4 .u-form-1 {
-  height: 419px;
-  width: 700px;
-  margin: 0;
-}
-
-.u-section-4 .u-btn-2 {
-  text-transform: uppercase;
-  width: 100%;
-  padding: 26px 0;
-}
-
-@media (max-width: 1199px) {
-  .u-section-4 .u-sheet-1 {
-    min-height: 429px;
-  }
-
-  .u-section-4 .u-layout-wrap-1 {
-    position: relative;
-  }
-
-  .u-section-4 .u-layout-cell-1 {
-    min-height: 395px;
-  }
-
-  .u-section-4 .u-layout-cell-2 {
-    min-height: 395px;
-  }
-
-  .u-section-4 .u-form-1 {
-    width: 567px;
-  }
-
-  .u-section-4 .u-btn-2 {
-    --radius: 10px;
-  }
-}
-
-@media (max-width: 991px) {
-  .u-section-4 .u-sheet-1 {
-    min-height: 352px;
-  }
-
-  .u-section-4 .u-layout-cell-1 {
-    min-height: 100px;
-  }
-
-  .u-section-4 .u-layout-cell-2 {
-    min-height: 100px;
-  }
-
-  .u-section-4 .u-form-1 {
-    width: 420px;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-section-4 .u-sheet-1 {
-    min-height: 484px;
-  }
-
-  .u-section-4 .u-container-layout-1 {
-    padding-right: 10px;
-  }
-
-  .u-section-4 .u-container-layout-2 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
-
-@media (max-width: 575px) {
-  .u-section-4 .u-sheet-1 {
-    min-height: 378px;
-  }
-
-  .u-section-4 .u-container-layout-1 {
-    padding-top: 9px;
-    padding-bottom: 10px;
-  }
-
-  .u-section-4 .u-form-1 {
-    width: 320px;
-  }
-} .u-section-5 {
-  min-height: 566px;
-}
+  // Close modal when clicking outside content
+  window.onclick = function(event) {
+    ['modal1','modal2','modal3','modal4','modal5','modal6','modal7','model8'].forEach(function(id) {
+      var modal = document.getElementById(id);
+      if (event.target === modal) {
+        modal.style.display = 'none';
+      }
+    });
+  };
+  </script>
+</body></html>
