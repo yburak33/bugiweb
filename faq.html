@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ | Bugimobiledetailing</title>
+    <!-- Font Awesome & Google Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Page Styles (matches existing site) -->
+    <style>
+        :root {
+            --gold-primary: #D4AF37;
+            --gold-secondary: #B8860B;
+            --gold-light: #FFD700;
+            --black-primary: #121212;
+            --black-secondary: #1a1a1a;
+            --black-light: #2a2a2a;
+            --text-light: #f5f5f5;
+            --text-gray: #cccccc;
+            --transition: all 0.4s ease;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Raleway', sans-serif;
+            background: var(--black-primary);
+            color: var(--text-light);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        h1, h2, h3, h4, h5 {
+            font-family: 'Playfair Display', serif;
+            color: var(--gold-primary);
+            letter-spacing: 1px;
+        }
+        h2 { font-size: 2.5rem; margin-bottom: 1.5rem; position: relative; display: inline-block; }
+        h2:after { content: ''; position: absolute; bottom: -10px; left: 0; width: 70px; height: 3px; background: var(--gold-primary); }
+        .container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        .btn { display: inline-block; background: var(--gold-primary); color: var(--black-primary); padding: 12px 28px; border-radius: 4px; text-decoration: none; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; transition: var(--transition); border: 2px solid var(--gold-primary); }
+        .btn:hover { background: transparent; color: var(--gold-primary); transform: translateY(-3px); box-shadow: 0 5px 15px rgba(212, 175, 55, 0.3); }
+        .section-title { text-align: center; margin-bottom: 50px; }
+        .section-title h2:after { left: 50%; transform: translateX(-50%); }
+
+        /* ================= Header / Top-Bar (re-used) ================= */
+        .top-bar { background: var(--black-secondary); padding: 10px 0; font-size: 0.9rem; }
+        .top-bar-content { display: flex; justify-content: space-between; flex-wrap: wrap; }
+        .contact-info { display: flex; gap: 30px; }
+        .contact-item { display: flex; align-items: center; gap: 8px; color: var(--text-gray); }
+        .contact-item i { color: var(--gold-primary); }
+        .social-links { display: flex; gap: 15px; }
+        .social-links a { color: var(--text-gray); transition: var(--transition); }
+        .social-links a:hover { color: var(--gold-primary); transform: translateY(-3px); }
+        .header-main { padding: 20px 0; background: rgba(18,18,18,0.95); position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.3); }
+        .header-container { display: flex; justify-content: space-between; align-items: center; }
+        .logo { display: flex; align-items: center; }
+        .logo img { height: 60px; filter: drop-shadow(0 0 5px rgba(212,175,55,0.5)); }
+        .logo-text { margin-left: 15px; }
+        .logo-text h1 { font-size: 1.8rem; margin: 0; color: var(--gold-primary); font-weight: 700; }
+        .logo-text span { font-size: 0.9rem; color: var(--text-gray); display: block; letter-spacing: 2px; }
+        .nav-menu { display: flex; list-style: none; }
+        .nav-menu li { margin: 0 15px; }
+        .nav-menu a { color: var(--text-light); text-decoration: none; font-weight: 500; text-transform: uppercase; font-size: 0.9rem; letter-spacing: 1px; transition: var(--transition); padding: 5px 0; position: relative; }
+        .nav-menu a:after { content: ''; position: absolute; width: 0; height: 2px; background: var(--gold-primary); bottom: 0; left: 0; transition: var(--transition); }
+        .nav-menu a:hover:after, .nav-menu a.active:after { width: 100%; }
+        .nav-menu a:hover, .nav-menu a.active { color: var(--gold-primary); }
+        .mobile-toggle { display: none; font-size: 1.5rem; cursor: pointer; color: var(--gold-primary); }
+
+        /* ================= Hero ================= */
+        .hero { height: 60vh; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/exteriorDetailing.jpg') center/cover no-repeat; }
+        .hero h1 { font-size: 3.5rem; line-height: 1.2; text-shadow: 0 2px 10px rgba(0,0,0,0.5); }
+
+        /* ================= FAQ Section ================= */
+        .faq { padding: 100px 0; background: var(--black-secondary); }
+
+        .faq-item { background: var(--black-light); border-radius: 8px; margin-bottom: 20px; border: 1px solid rgba(212,175,55,0.15); overflow: hidden; }
+        .faq-item details { transition: var(--transition); }
+        .faq-item[open] { border-color: var(--gold-primary); box-shadow: 0 5px 15px rgba(212,175,55,0.15); }
+        .faq-item summary { list-style: none; cursor: pointer; padding: 20px 25px; position: relative; font-weight: 600; color: var(--gold-light); }
+        .faq-item summary::-webkit-details-marker { display: none; }
+        .faq-item summary:after { content: '\f078'; /* FontAwesome chevron-down */ font-family: 'Font Awesome 5 Free'; font-weight: 900; position: absolute; right: 25px; transition: var(--transition); }
+        .faq-item[open] summary:after { transform: rotate(180deg); }
+        .faq-item p { padding: 0 25px 25px; color: var(--text-gray); }
+
+        /* ================= Contact & Footer (reuse styles) ================= */
+        /* Contact styles inherited from main site; left out for brevity */
+
+        /* ================= Responsive ================= */
+        @media (max-width: 992px) {
+            .hero h1 { font-size: 3rem; }
+        }
+        @media (max-width: 768px) {
+            .mobile-toggle { display: block; }
+            .nav-menu { position: fixed; top: 100px; left: -100%; background: var(--black-secondary); width: 100%; height: calc(100vh - 100px); flex-direction: column; align-items: center; padding: 50px 20px; transition: var(--transition); z-index: 99; }
+            .nav-menu.active { left: 0; }
+            .nav-menu li { margin: 15px 0; }
+            .hero h1 { font-size: 2.5rem; }
+        }
+        @media (max-width: 576px) {
+            .hero { height: 70vh; }
+            .hero h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- ============== Top Bar ============== -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="contact-info">
+                <div class="contact-item"><i class="fas fa-envelope"></i><span>info@bugiauto.com</span></div>
+                <div class="contact-item"><i class="fas fa-phone"></i><span>+1 (571) 584 9946</span></div>
+                <div class="contact-item"><i class="fas fa-map-marker-alt"></i><span>Service Area: DMV (DC, Maryland, Virginia)</span></div>
+            </div>
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/165PSZdsER/"><i class="fab fa-facebook-f"></i></a>
+                <a href="tiktok.com/@bugi.auto"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.instagram.com/bugiautodetaling?utm_source=qr&igsh=Z2VreGR0aWl1a2Y0"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@Bugiauto"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============== Header ============== -->
+    <header class="header-main">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="images/bugi_logo.jpg" alt="Bugimobiledetailing Logo">
+                <div class="logo-text">
+                    <h1>BUGI AUTO</h1>
+                    <span>MOBILE DETAILING</span>
+                </div>
+            </div>
+            <div class="mobile-toggle" id="mobile-toggle"><i class="fas fa-bars"></i></div>
+            <nav>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Pricing-Page.html">Pricing</a></li>
+                    <li><a href="Team.html">Before After</a></li>
+                    <li><a href="faq.html" class="active">FAQ</a></li>
+                    <li><a href="#contact" class="btn">Book Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ============== Hero Section ============== -->
+    <section class="hero">
+        <h1>Frequently Asked Questions</h1>
+    </section>
+
+    <!-- ============== FAQ Section ============== -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-title">
+                <h2>Your Questions, Answered</h2>
+                <p>Everything you need to know before booking</p>
+            </div>
+
+            <!-- FAQ Items -->
+            <div class="faq-list">
+
+                <div class="faq-item">
+                    <details>
+                        <summary>1. What areas do you serve?</summary>
+                        <p>We proudly operate within a 30-mile radius of Merrifield, VA—covering Northern Virginia (Fairfax, Arlington, Alexandria, Chantilly, Leesburg, Gainesville, Haymarket), Washington, DC, and select Maryland locations (Bethesda, Chevy Chase, Potomac, Rockville, Gaithersburg, Silver Spring, Takoma Park). If your ZIP isn’t listed, reach out—we’re always expanding!</p>
+                    </details>
+                </div>
+
+                <div class="faq-item">
+                    <details>
+                        <summary>2. How can I verify if you're available in my ZIP code?</summary>
+                        <p>Check the Service Area page for ZIP codes. If yours is missing, send us a quick message or use the contact form—we frequently cover adjacent areas and can make exceptions for nearby customers.</p>
+                    </details>
+                </div>
+
+                <div class="faq-item">
+                    <details>
+                        <summary>3. What exactly is included in a full interior &amp; exterior detail?</summary>
+                        <p><strong>Exterior:</strong> Hand wash, clay-bar decontamination, multi-stage polishing, wax or ceramic coating, tire shine, and trim rejuvenation.<br><br>
+                           <strong>Interior:</strong> Comprehensive vacuuming, shampoo &amp; upholstery cleaning, leather/vinyl conditioning, dashboard &amp; console detailing, odor neutralizing.<br><br>
+                           <strong>Extras (on request):</strong> Headlight restoration, engine bay degreasing, pet-hair removal. Every detail is tailored to your vehicle’s type and condition.</p>
+                    </details>
+                </div>
+
+                <div class="faq-item">
+                    <details>
+                        <summary>4. What if I only want one service, like ceramic coating or paint correction?</summary>
+                        <p>No problem! Stand-alone services include:
+                            <ul>
+                                <li>Paint Correction – single or multi-stage scratch/swirl removal</li>
+                                <li>Ceramic Coating – durable 3-5 year nano-coating</li>
+                                <li>Headlight Restoration, Engine Cleaning, Odor Treatment</li>
+                            </ul>
+                            Let us know what you need during booking.</p>
+                    </details>
+                </div>
+
+                <div class="faq-item">
+                    <details>
+                        <summary>5. How long does each service take?</summary>
+                        <p><strong>Full interior + exterior detail:</strong> 3–4 hours.<br>
+                           <strong>Paint correction + ceramic coating:</strong> 4–7 hours (luxury/SUVs may take most of the day).<br>
+                           We’ll always provide an estimated window when booking.</p>
+                    </details>
+                </div>
+
+                <div class="faq-item">
+                    <details>
+                        <summary>6. Do you bring your own water and electricity?</summary>
+                        <p>Yes. We carry a fresh-water tank and a quiet generator. We’re fully self-sufficient, but if an outdoor outlet is available we’ll plug in for even quieter operation—perfect for residential neighborhoods or early-morning jobs.</p>
+                    </details>
+                </div>
+
+                <div class="faq-item">
+                    <details>
+                        <summary>7. Can you remove pet hair, sand, or strong odors from the interior?</summary>
+                        <p>Absolutely. We offer specialized pet-hair removal, deep carpet extraction, and ozone-based odor elimination. For severe cases we recommend an interior reset detail using steam and enzyme cleaners.</p>
+                    </details>
+                </div>
+
+                <div class="faq-item">
+                    <details>
+                        <summary>8. What is ceramic coating and how long does it last?</summary>
+                        <p>Ceramic coating is a nano-ceramic layer that bonds with your paint, adding gloss, UV protection, and chemical resistance. With proper maintenance it lasts 3–5 years.</p>
+                    </details>
+                </div>
+
+                <div class="faq-item">
+                    <details>
+                        <summary>9. How should I maintain the coating at home?</summary>
+                        <p>We’ll provide a starter kit and show you how to:<br>
+                           • Wash with a pH-neutral, sulfate-free shampoo.<br>
+                           • Rinse thoroughly and dry with microfiber towels.<br>
+                           • Apply a ceramic-spray booster every 4-6 weeks.<br>
+                           Regular care preserves durability and gloss.</p>
+                    </details>
+                </div>
+
+                <div class="faq-item">
+                    <details>
+                        <summary>10. What's paint correction and do I need it?</summary>
+                        <p>Paint correction removes defects like swirl marks, scratches, and oxidation. If your paint looks dull or shows fine scratches, correction restores mirror-like depth—ideal before ceramic coating.</p>
+                    </details>
+                </div>
+
+                <div class="faq-item">
+                    <details>
+                        <summary>11. Do you offer protective or premium packages?</summary>
+                        <p>Yes. Popular upgrades include:<br>
+                           • Two-step paint correction<br>
+                           • 3–5 year ceramic coating<br>
+                           • Monthly/quarterly maintenance plans<br>
+                           • Multi-vehicle discounts for fleets or enthusiast collections<br>
+                           We can tailor any package—just ask!</p>
+                    </details>
+                </div>
+
+                <div class="faq-item">
+                    <details>
+                        <summary>12. Do you offer mobile detailing during the winter months?</summary>
+                        <p>Yes—year-round. In colder weather we focus on interiors, paint protection, and cold-cure ceramic coatings. Heated-water systems let us detail in garages, driveways, or enclosed areas. If extreme cold or snow makes work unsafe, we’ll reschedule at no charge.</p>
+                    </details>
+                </div>
+
+                <div class="faq-item">
+                    <details>
+                        <summary>13. What if it rains or it's snowy?</summary>
+                        <p>Light rain is fine. For heavy rain, storms, or unsafe conditions we’ll reschedule free of charge. Ceramic coatings require dry conditions—if weather starts mid-service we’ll pause or move under cover.</p>
+                    </details>
+                </div>
+
+                <div class="faq-item">
+                    <details>
+                        <summary>14. What forms of payment do you accept?</summary>
+                        <p>Cash, credit / debit cards (Visa, MasterCard, Amex), Apple Pay, Google Pay, Zelle, Venmo.</p>
+                    </details>
+                </div>
+
+                <div class="faq-item">
+                    <details>
+                        <summary>15. How do I book a service?</summary>
+                        <p>Book online, chat live on our site, call or text us, or send an email (we reply within 1-2 business hours). We recommend booking 24–48 hours in advance—especially for ceramic-coating slots.</p>
+                    </details>
+                </div>
+
+                <div class="faq-item">
+                    <details>
+                        <summary>16. What's your cancellation or rescheduling policy?</summary>
+                        <p>Free cancellation/reschedule ≥ 24 hours before the appointment. Late cancellations (≤ 24 hours) incur a $50 fee (credited toward future work). Weather-related reschedules are always free.</p>
+                    </details>
+                </div>
+
+                <div class="faq-item">
+                    <details>
+                        <summary>17. Are your products eco-friendly and safe for pets?</summary>
+                        <p>Yes. We use high-grade, biodegradable, pH-neutral products free of harsh VOCs—safe for pets, kids, and the environment.</p>
+                    </details>
+                </div>
+
+                <div class="faq-item">
+                    <details>
+                        <summary>18. Can you detail high-end, exotic, or electric vehicles?</summary>
+                        <p>Definitely. We regularly service luxury, exotic, and EVs (Porsche, Tesla, BMW M, etc.), using extra precautions for sensors, charging ports, and specialty finishes.</p>
+                    </details>
+                </div>
+
+                <div class="faq-item">
+                    <details>
+                        <summary>19. Do you offer gift certificates or seasonal promotions?</summary>
+                        <p>Yes—gift certificates are perfect for holidays and birthdays. We also run seasonal specials such as spring shine packages, winter protection, and holiday clean-ups.</p>
+                    </details>
+                </div>
+
+                <div class="faq-item">
+                    <details>
+                        <summary>20. How can I leave feedback or refer a friend?</summary>
+                        <p>We appreciate your feedback! Leave ⭐⭐⭐⭐⭐ reviews on Google, Yelp, and Facebook; tag us on Instagram or Facebook; or use our referral program to earn service credits when friends book.</p>
+                    </details>
+                </div>
+
+            </div><!-- /.faq-list -->
+        </div>
+    </section>
+
+    <!-- ============== Contact & Footer (reuse same markup from other pages) ============== -->
+    <!-- For brevity, you can copy the identical Contact / Footer sections from About.html -->
+
+    <!-- ===== Scripts ===== -->
+    <script>
+        // Mobile Navigation Toggle
+        const mobileToggle = document.getElementById('mobile-toggle');
+        const navMenu = document.getElementById('nav-menu');
+        mobileToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            mobileToggle.innerHTML = navMenu.classList.contains('active') ? '<i class="fas fa-times"></i>' : '<i class="fas fa-bars"></i>';
+        });
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                mobileToggle.innerHTML = '<i class="fas fa-bars"></i>';
+            });
+        });
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('.header-main');
+            header.classList.toggle('scrolled', window.scrollY > 50);
+        });
+    </script>
+</body>
+</html>
