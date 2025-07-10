@@ -84,7 +84,317 @@
 
         /* ================= Contact & Footer (reuse styles) ================= */
         /* Contact styles inherited from main site; left out for brevity */
+               .contact {
+            padding: 100px 0;
+            background: var(--black-secondary);
+        }
+        
+        .contact-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        
+        .contact-icon {
+            width: 60px;
+            height: 60px;
+            background: var(--black-light);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: var(--gold-primary);
+            flex-shrink: 0;
+            transition: var(--transition);
+        }
+        
+        .contact-item:hover .contact-icon {
+            background: var(--gold-primary);
+            color: var(--black-primary);
+            transform: scale(1.1);
+        }
+        
+        .contact-details h4 {
+            margin-bottom: 10px;
+            color: var(--gold-light);
+        }
+        
+        .contact-details p, 
+        .contact-details a {
+            color: var(--text-gray);
+            text-decoration: none;
+            transition: var(--transition);
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .contact-details a:hover {
+            color: var(--gold-primary);
+        }
+        
+        .contact-form {
+            background: var(--black-light);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--text-gray);
+        }
+        
+        .form-control {
+            width: 100%;
+            padding: 12px 15px;
+            background: var(--black-secondary);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            color: var(--text-light);
+            font-family: inherit;
+            transition: var(--transition);
+        }
+        
+        .form-control:focus {
+            outline: none;
+            border-color: var(--gold-primary);
+            box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.2);
+        }
+        
+        textarea.form-control {
+            min-height: 150px;
+            resize: vertical;
+        }
+        
+        /* Footer */
+        .footer {
+            background: var(--black-primary);
+            padding: 70px 0 0;
+            position: relative;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 50px;
+        }
+        
+        .footer-col h4 {
+            color: var(--gold-primary);
+            margin-bottom: 25px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        .footer-col h4:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 2px;
+            background: var(--gold-primary);
+        }
+        
+        .footer-col ul {
+            list-style: none;
+        }
+        
+        .footer-col ul li {
+            margin-bottom: 12px;
+        }
+        
+        .footer-col ul li a {
+            color: var(--text-gray);
+            text-decoration: none;
+            transition: var(--transition);
+            display: block;
+        }
+        
+        .footer-col ul li a:hover {
+            color: var(--gold-primary);
+            padding-left: 5px;
+        }
+        
+        .footer-col p {
+            color: var(--text-gray);
+            margin-bottom: 15px;
+        }
+        
+        .footer-bottom {
+            background: var(--black-secondary);
+            padding: 20px 0;
+            text-align: center;
+            color: var(--text-gray);
+            font-size: 0.9rem;
+        }
+        
+        .footer-bottom a {
+            color: var(--gold-primary);
+            text-decoration: none;
+        }
+        
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.8);
+        }
 
+        .modal-content {
+            background-color: var(--black-light);
+            margin: 10% auto;
+            padding: 30px;
+            border-radius: 8px;
+            width: 80%;
+            max-width: 700px;
+            position: relative;
+            border: 1px solid var(--gold-primary);
+            box-shadow: 0 10px 30px rgba(212, 175, 55, 0.2);
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 1.8rem;
+            color: var(--gold-primary);
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .modal-close:hover {
+            color: var(--gold-light);
+            transform: rotate(90deg);
+        }
+
+        .modal h3 {
+            color: var(--gold-light);
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--gold-primary);
+        }
+
+        .modal ul {
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        .modal li {
+            margin-bottom: 10px;
+            color: var(--text-gray);
+        }
+        
+        .modal strong {
+            color: var(--gold-light);
+        }
+        
+        .modal h4 {
+            color: var(--gold-primary);
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        
+        /* Media Queries */
+        @media (max-width: 992px) {
+            .contact-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .hero h1 {
+                font-size: 3rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .mobile-toggle {
+                display: block;
+            }
+            
+            .nav-menu {
+                position: fixed;
+                top: 100px;
+                left: -100%;
+                background: var(--black-secondary);
+                width: 100%;
+                height: calc(100vh - 100px);
+                flex-direction: column;
+                align-items: center;
+                padding: 50px 20px;
+                transition: var(--transition);
+                z-index: 99;
+            }
+            
+            .nav-menu.active {
+                left: 0;
+            }
+            
+            .nav-menu li {
+                margin: 15px 0;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .pricing-table {
+                display: block;
+                overflow-x: auto;
+            }
+            
+            .section-title h2 {
+                font-size: 2.2rem;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .top-bar-content {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .hero {
+                height: 80vh;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+        }
         /* ================= Responsive ================= */
         @media (max-width: 992px) {
             .hero h1 { font-size: 3rem; }
